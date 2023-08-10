@@ -1,0 +1,325 @@
+/* Follow Us */
+.follow-us {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+/* Styling for the heading inside the "Follow Us" section */
+
+.follow-us h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.follow-us a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Marquee Style */
+.marquee {
+    background-color: #e4cde6;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 24px;
+    color: #661f47;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    direction: inherit;
+}
+
+.marquee span {
+    display: inline-block;
+    animation: marquee-scroll 10s linear infinite;
+}
+
+
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    } 
+}
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the navigation links */
+.navbar a {
+    color: #f7f7f7;
+    text-decoration: none;
+    padding: 14 px 16px;
+}
+
+/* Active Link */
+.navbar a.active {
+    background-color: #000;
+}
+
+/* Individual links */
+.navbar a.home {
+    color: #fefefe;
+}
+
+.navbar a.about {
+    color: #d1a7ca;
+}
+
+.navbar a.products {
+    color: #d1a7ca;
+}
+
+.navbar a.contact {
+    color: #d1a7ca;
+}
+
+/* Home Section */
+#home {
+    background-image: url(Watermelon\ Sugar.JPEG);
+    background-size: 40%;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.banner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-family: cursive;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #fefefe;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f7f7f7;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: none;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Product Section */
+#products {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f1e6f2;
+}
+
+.product {
+    display: inline-block;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fefefe;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 200px;
+    margin-bottom: 10px;
+
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #fefefe;
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .banner h1 {
+        font-size: 16px;
+    }
+    .product {
+        max-width: 100%;
+    }
+}    
+
+@media  screen and (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+}
+
+/* Additional Styles */
+
+/* Link Styling */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Styling for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition:color 0.3 ease;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Styling for section headings */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 1.5;
+}
+
+/* Styling for form labels */
+form label {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Styling for form inputs and textarea */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3 ease;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
